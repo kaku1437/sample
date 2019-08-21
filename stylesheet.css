@@ -1,0 +1,182 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+a { text-decoration: none; }
+
+header {
+  height:90px;
+  width:100%;
+  background-color:rgba(0,0,0,0.8);
+  position: fixed;
+  top:0px;
+  z-index: 10;
+
+}
+header img{
+  width:100px;
+  height:90px;
+  float: left;
+}
+header h1 {
+float:left;
+line-height: 90px;
+color: white;
+
+}
+
+.header-right{
+  float:right;
+  margin-right: 20px;
+  transition: all 1s;
+
+}
+
+header a {
+ padding: 0px 60px;
+ background-color: rgba(255, 255, 255, 0.3);
+ line-height: 90px;
+ display: block;
+ color: black;
+}
+.header-right:hover{
+  background-color :rgba(255, 255, 255, 0.5);
+}
+
+.topwrapper{
+  height: 750px;
+  width:100%;
+  color: rgba(255,255,255,0.85);
+  background-image: url(BUMPOFCHICKEN_spaceshower.jpg);
+  background-size:100% 750px ;
+  background-repeat:no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding-top: 220px;
+  font-family:impact;
+  font-weight: bolder;
+}
+.container h1{
+  font-size: 60px
+
+}
+
+.btn{
+  padding: 10px 20px;
+  display:inline-block;
+  opacity:0.8;
+  color: white;
+}
+
+.btn:hover{
+  opacity: 0.95 ;
+}
+
+.signup{
+  background-color: green;
+}
+.facebook{
+  background-color: blue;
+  margin-left: 20px;
+}
+.twitter{
+  margin-left: 20px;
+  background: red;
+}
+
+.btn-wrapper{
+padding: 60px;
+
+}
+
+.contents-wrapper{
+  height:500px;
+  padding-bottom: 50px;
+  background-color: #f7f7f6;
+   text-align:center;
+
+
+}
+.heading{
+  padding:50px 0px 30px 0px;
+
+}
+
+.motimono{
+ width:250px;
+ height:250px;
+
+}
+
+.contents{
+
+}
+
+.content{
+  float:left;
+  width:33%;
+
+
+}
+
+.content-icon{
+position: relative;
+
+}
+
+.content-icon p{
+  position: absolute;
+  top:120px;
+  width:440px;
+  color:white;
+  text-align: center;
+  font-size: 25px;
+  font-weight:bolder;
+
+
+}
+
+.text-content{
+  width:80%;
+  margin:30px 0px 15px 40px;
+
+}
+
+.ah-wrapper{
+  text-align:center;
+  border-bottom:1px solid black;
+}
+
+.ah-btn{
+  background-color: #5dca88;
+  display:inline-block;
+  height: 33px;
+  width:180px;
+  line-height: 33px;
+  color: white;
+  margin-bottom: 60px;
+  box-shadow: 0px 7px #1a7940;
+  opacity: 0.9;
+}
+
+.ah-btn:hover{
+ opacity: 1;
+}
+
+.ah-btn:active{
+  position: relative;
+  top:7px;
+  box-shadow: none;
+}
+
+footer{
+  background-color:;
+}
+
+.footer-logo{
+  float: right;
+  height: 60px
+}
